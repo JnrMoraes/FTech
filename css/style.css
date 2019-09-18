@@ -1,0 +1,439 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FAFAFA;
+    
+}  
+header{    
+    background: #FAFAFA;
+    /* height: 151px; */
+    grid-area: h
+
+}
+section1{
+    background: #FAFAFA;    
+    grid-area:  s1
+}
+section2{
+    background: #FAFAFA;
+    grid-area: s2
+}
+section3{
+    background: #FAFAFA;    
+    grid-area:  s3 
+}
+section4{
+    background: #FAFAFA;    
+    grid-area:   s4
+}
+section5{
+    background: #FAFAFA;    
+    grid-area:  s5 
+}
+section6{
+    background: #DDDEDB;    
+    grid-area:  s6 
+}
+section7{
+    background: #FAFAFA;    
+    grid-area:   s7
+}
+section8{
+    background: #FF8C09;    
+    grid-area:   s8
+}   
+footer{ 
+    background: #F2DCC3;
+    grid-area: f
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 151px 940px 748px 450px 100px 210px 110px 116px;
+    grid-template-areas: "h  h"
+                          "s1 s1"
+                          "s2 s3"
+                          "s4 s5"
+                          "s6 s6"
+                          "s7 s7"
+                          "s8 s8"
+                          "f f"  
+}
+
+.logo{
+    position: absolute;
+    top: 26px;
+    left: 53px;
+    width: 420px;
+    height: 90px;
+    background: transparent url(Imagem-1.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    left: 556px;
+    width: 965px;
+    height: 43px;
+    text-align: left;
+    font-family: arial;
+    font-size: 30px;
+   
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;    
+}
+.nav1{
+    /* position: absolute; */
+    left: 1%;
+    top: 1px;
+    text-decoration: none;
+}
+.nav2{
+    /* position: absolute; */
+    /* left: 20%; */
+    top: 1px;
+    text-decoration: none;
+}
+.nav3{
+    /* position: absolute; */
+    /* left: 40%; */
+    top: 1px;
+    text-decoration: none;
+}
+.nav4{
+    /* position: absolute; */
+    /* left: 60%; */
+    top: 1px;
+    text-decoration: none;
+}
+.nav5{
+    /* position: absolute; */
+    /* left: 80%; */
+    top: 1px;
+    text-decoration: none;
+}
+.quadrado-botao{
+    position: absolute;
+    top: 38px;
+    left: 1603px;
+    width: 251px;
+    height: 75px;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: arial;
+    font-size: 35px;
+    color: white;
+    background: orangered;
+}
+.login{
+    position: absolute;
+    border-top :5px;
+    top: -15px;
+    left: 66px;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: arial; 
+
+}
+
+.img{
+    top: 143px;
+    left: -294px;
+    width: 2214px;
+    height: 941px;
+    background: transparent url(topo2.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.faixa{
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    width: 2214px;
+    height: 128px;
+    background: #FFFFFFF2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.escrita{
+    position: relative;
+    top: -30px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana;
+    letter-spacing: 0;
+    color: #F4862F;
+    opacity: 1;
+}
+.certificado{
+    position: relative;
+    top: 52px;
+    left: 129px;
+    width: 783px;
+    height: 648px;
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    opacity: 1;
+}
+.quadrado-botao-certificado{
+    position: absolute;
+    top: 38px;
+    left: 153px;
+    width: 455px;
+    height: 75px;
+    border-radius: 10px;
+    opacity: 1;
+    background: orangered;
+}
+.certificacao{
+    position: absolute;
+    border-top :5px;
+    top: -18px;
+    left: 103px;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+}
+.certifado-desenho{
+    position: absolute;
+    top: 170px;
+    left: 250px; 
+    width: 274px;
+    height: 426px;
+    background: transparent url(certificado.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.curso{
+    position: relative;
+    top: 52px;
+    left: 129px;
+    width: 783px;
+    height: 648px;   
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    opacity: 1;
+}
+.quadrado-botao-curso{
+    position: absolute;
+    top: 38px;
+    left: 153px;
+    width: 455px;
+    height: 75px;
+    border-radius: 10px;
+    opacity: 1;
+    background: orangered;
+}
+.curso1{
+    position: absolute;
+    border-top :5px;
+    top: -15px;
+    left: 156px;
+    font-family: arial;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: arial;    
+}
+.curso-desenho{
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    
+    width: 574px;
+    height: 426px;
+    background: transparent url(thumb-cursos-online.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.fale-com{
+    position: relative;
+    /* top: px; */
+    text-align: center;
+    left: -220px; /*
+    width: 362px;
+    height: 60px;
+    text-align: left; */
+    font-family: Verdana;
+    font-size: 45px;
+    letter-spacing: 0;
+    color: #FF6600;
+    opacity: 1;
+}
+.endereco{
+    position: absolute;
+    top: 80px; 
+    text-align: left;
+    left: 360px; 
+
+    font-family: Verdana;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #8A5864;
+    opacity: 1;
+}
+.face{
+    position: absolute;
+    top: 2170px;
+    left: 130px;
+    width: 574px;
+    height: 426px;
+    background: transparent url(icon-social.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.form{
+    position: relative;
+    top: 52px;
+    left: 129px;
+    width: 983px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 1;
+}
+.nome{
+    position: relative;
+    float: left;
+    top: 52px;
+}
+.email{
+    position: relative;
+    float: right;
+    top: -29px;
+    left: -210px;
+
+}
+.telefone{
+    position: relative;
+    float: right;
+    top: 29px;
+    left: 153px;
+}
+.divbox{
+    position: absolute;
+    top: 110px;
+}
+.submit{
+    position: absolute;
+    top: 315px;
+    align-content: center;
+    left: 302px;
+    width: 170px;
+    height: 54px;
+    font-family: arial;
+    font-size: 25px;
+    color: #EC174A;
+    border: 2px solid #EC174A;
+    border-radius: 25px;
+    opacity: 1;
+}
+.parceiros{
+    position: absolute;
+    top:2328px;
+    left: 789px;
+    width: 543px;
+    height: 81px;
+    background: #EC174A 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+}
+.parceiros >p{
+    position: absolute;
+    top:-28px;
+    left: 160px;
+    width: 543px;
+    text-align: left;
+    font-size: 45px;
+    font-family: arial;
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+
+}
+.img-parceiros{
+    position: absolute;
+    top: 55px;
+    left: -520px;
+    width: 1714px;
+    height: 208px;
+    background: transparent url(Imagem-2.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.nav-menu-baixo{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 2640px;
+    left: 660px;
+    width: 745px;
+    height: 43px;
+    align-content:  center;
+    text-align: left;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+    /* font: Regular 32px/43px Segoe UI;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1; */
+
+}
+.nav6{
+    /* position: absolute; */
+  
+    top: 1px;
+    color: white;
+    text-decoration: none;
+}
+.nav7{
+    /* position: absolute; */
+    /* left: 20%; */
+    color: white;
+    top: 1px;
+    text-decoration: none;
+}
+.nav8{
+    /* position: absolute; */
+    /* left: 40%; */
+    color: white;
+    top: 1px;
+    text-decoration: none;
+}
+.nav9{
+    /* position: absolute; */
+    /* left: 60%; */
+    color: white;
+    top: 1px;
+    text-decoration: none;
+}
+.rodape{
+    position: relative;
+    top: 19px;
+    
+    width: auto;
+    height: 35px;
+    text-align: center;
+    font-family: arial;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0;
+    color: #BF3E0E;
+    opacity: 1;
+    
+}
